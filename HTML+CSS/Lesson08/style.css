@@ -1,0 +1,53 @@
+div {
+    width: 300px;
+    height: 300px;
+    display: table-cell;
+    color: red;
+    background: yellow;
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+    border: 5px solid green;
+    overflow: auto;
+}
+
+@media screen and (max-width: 400px) {
+    div {
+        color: green;
+        width: 200px;
+        background: gray;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    div {
+        color: white;
+        width: 500px;
+        background: linear-gradient(to right, #00ff00 5%, #0F0FFF 5%, red 80%, yellow 80%);
+    }
+}
+
+@media screen and (orientation: landscape) {
+    div {
+        border: 15px solid black;
+    }
+}
+
+@media print {
+    div {
+        color: aqua;
+        background: black;
+        border-color: aqua;
+    }
+}
+
+/*@support (background: linear-gradient (to top, red, yellow)) {
+    div {
+        background: linear-gradient (to top, red, yellow);
+    }
+}*/
+
+
+/*perfectPixel
+
+overflow*/

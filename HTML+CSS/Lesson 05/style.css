@@ -1,0 +1,77 @@
+.block1 {
+    width: 200px;
+    background: #ccc;
+    padding: 5px;
+    padding-right: 20px;
+    border: solid 1px black;
+    float: left;
+}
+
+.color_hex {
+    background-color: #fff000
+}
+
+.color_rgb {
+    color: rgb(225, 225, 0);
+}
+
+.color_rgba {
+    color: rgb()
+}
+
+h1 {
+    color: red;
+}
+
+h1::first-letter {
+    color: aqua;
+}
+
+div::first-line {
+    color: red;
+}
+
+div::selection {
+    color: white;
+    background: red;
+}
+
+h1::backdrop {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+input::placeholder {}
+
+a:link {
+    /* -1-   до використання лінки*/
+    color: red;
+}
+
+a:visited {
+    /* -2-  після використання лінки */
+    color: blue;
+}
+
+a:hover {
+    /* -3- при наведенні*/
+    color: aqua;
+}
+
+a:active {
+    /* -4- під час нижимання*/
+    color: black;
+    background: yellow;
+    /*love - hate*/
+}
+
+div span:only-child{
+    color:green;
+}
+
+div p:last-of-type{
+    color: green;
+}
+
+div:empty{
+    background: black;
+}

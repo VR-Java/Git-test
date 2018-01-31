@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.back {
+    width: 500px;
+    height: 500px;
+    background: url(clock.jpg);
+    background-size: cover;
+    border: 5px solid black;
+    border-radius: 250px;
+    position: relative;
+    margin: 0 auto;
+    /*Чи є якісь правила почерговості для задання пропертів для селекторів?*/
+}
+
+.arrowblock{
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);  
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 5px;
+    background: rgba(200, 20, 200, 0);
+    transform: rotate(-90deg);
+}
+
+.transparent {
+    display: inline-block;
+    background: rgba(0, 200, 0, 0);
+    width: 200px;
+    height: 5px;
+}
+
+.center {
+    display: inline-block;
+    background: rgba(0, 200, 0, 0);
+    color: black;
+    text-align: center;
+    width: 50px;
+    height: 5px;
+    font-size: 30px;
+    margin-top: -35px;
+    /* Як вирівняти текст посередині блоку?*/
+}
+
+.black {
+    display: inline-block;
+    background: black;
+    width: 200px;
+    height: 5px;
+}
+
+.arrow:hover {
+    transform: rotate(270deg);
+    transition: transform 60s linear;
+    /*Як зробити, щоб стрілка почала рухатися відразу, без наведення на неї курсора?*/
+}

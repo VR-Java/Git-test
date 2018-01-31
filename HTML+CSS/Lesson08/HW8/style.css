@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-gradient {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 335px;
+    background: linear-gradient(#418984, #418984, #5cb8b2);
+    text-align: center;
+}
+
+.header-content {
+    position: relative;
+    display: inline-block;
+    width: 820px;
+    height: 335px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.woman {
+    display: block;
+    position: relative;
+    margin-left: -600px;
+    margin-top: 5px;
+}
+
+.ff-logo {
+    display: block;
+    position: relative;
+    margin-left: -160px;
+    margin-top: -290px;
+}
+
+
+.header-text-1,
+.header-text-2 {
+    display: inline-block;
+    width: 500px;
+    height: 60px;
+    position: absolute;
+    margin-left: -140px;
+    margin-top: 35px;
+    text-align: left;
+    color: white;
+    font-size: 22px;
+    line-height: 1.25;
+}
+
+.header-text-1 {
+    margin-top: 35px;
+    font-size: 22px;
+    line-height: 1.25;
+}
+
+.header-text-2 {
+    margin-top: 120px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.left-strip,
+.right-strip {
+    display: inline-block;
+    width: 50%;
+    height: 20px;
+    position: absolute;
+    float: left;
+    bottom: 0;
+    
+    margin-top: -20px;
+    z-index: 2;
+    background: white;
+    border: 1px solid white;
+}
+
+
+.left-strip {
+    left: 0;
+    border-top-right-radius: 15px;
+}
+
+.right-strip {
+    right: 0;
+    border-top-left-radius: 15px;
+}
+
+
